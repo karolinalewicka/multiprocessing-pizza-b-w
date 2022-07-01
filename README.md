@@ -1,4 +1,4 @@
-# multiprocessing-pizza-b-w
+# Multiprocessing Pizza B&W
 
 Aplikacja wykorzystuje bibliotekę openCV, która zamienia zdjęcia z folderu ./photos na ich czarno-białe wersje w folderze ./output. Wywołując z konsoli program, użytkownik podaje liczbę procesów, na których ma on zadziałać (program przetwarza to za pomocą argparse). 
 
