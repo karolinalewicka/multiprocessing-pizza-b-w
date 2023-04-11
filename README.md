@@ -1,7 +1,7 @@
 # Multiprocessing Pizza B&W
 
-Aplikacja wykorzystuje bibliotekę openCV, która zamienia zdjęcia z folderu ./photos na ich czarno-białe wersje w folderze ./output. Wywołując z konsoli program, użytkownik podaje liczbę procesów, na których ma on zadziałać (program przetwarza to za pomocą argparse). 
+The application uses the openCV library to convert photos from the ./photos folder to their black and white versions in the ./output folder. When calling the program from the console, the user specifies the number of processes on which it should operate using argparse.
 
-Program wywołuje się wołając "rm -rf output/ ; time python3 main.py [liczba procesów]", np. rm -rf output/ ; time python3 main.py 5.
+The program is called by typing "rm -rf output/ ; time python3 main.py [number of processes]", e.g. rm -rf output/ ; time python3 main.py 5.
 
-Po wywołaniu, w konsoli pojawiają się statystyki dotyczące czasu operacji. 
+After calling the program, statistics regarding the operation time appear in the console.
